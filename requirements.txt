@@ -1,0 +1,11 @@
+# lyric-studio 的 Python 依赖（Python 3.11 测试通过）
+# torch 请先按 setup.ps1 里的方式装 CPU 版（--index-url https://download.pytorch.org/whl/cpu），再装本文件。
+numpy==2.4.3
+scipy==1.17.1
+librosa==0.11.0
+soundfile==0.14.0
+pillow==12.1.1
+imageio-ffmpeg==0.6.0       # 自带 ffmpeg，跨平台
+stable-ts==2.19.1           # 歌词强制对齐（Whisper）
+fugashi[unidic-lite]==1.5.2 # 日语断句
+demucs==4.1.0               # 人声 / 鼓分离（可选但强烈推荐；没装会退回简易提取）

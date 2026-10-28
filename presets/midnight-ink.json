@@ -1,0 +1,15 @@
+{
+  "name": "midnight-ink",
+  "palette": {"bg": "#1a0d14", "accent": "#ff5f93", "text": "#fff6fa", "shade": "10,0,6"},
+  "background": {"images": [], "blur": 3, "dim": 0, "drift": 1, "glow": "rgba(255,60,130,0.25)"},
+  "grain": 0.14,
+  "vignette": 0.6,
+  "hud": true,
+  "intro": "window",
+  "outro": "collapse",
+  "camera": {"punch": 1, "wiggle": 1},
+  "beat": {"kick": 1, "hat": 1},
+  "particles": {"dust": 70, "swirl": 1},
+  "peakGlitch": true,
+  "motionBlur": true
+}

@@ -1,0 +1,12 @@
+node_modules/
+out/
+songs/*
+!songs/README.md
+tools/bin/
+tools/data/
+examples/demo/demo_song.wav
+examples/demo/lyrics.json
+examples/demo/lyrics.txt
+__pycache__/
+*.pyc
+.venv/
